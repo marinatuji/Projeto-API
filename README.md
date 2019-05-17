@@ -4,3 +4,5 @@ O intuito desta pesquisa foi entender como os usúarios de cartão de crédito i
 
 ## Questão 1
 
+![Alt Text](Q1.JPEG)
+![Alt Text](https://github.com/{user}/{repo}/raw/{branch}/path/to/image.gif)
