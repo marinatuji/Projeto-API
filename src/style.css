@@ -1,8 +1,12 @@
-body{
-    padding: 10px;
+.img-logo{
+  border-color: red;
 }
 
-.ben-logo{
-    width: 10%;
-    display: flex;
+.nav-blue{
+  height: 10%;
+}
+
+.text-style{
+  color: white;
+  
 }
