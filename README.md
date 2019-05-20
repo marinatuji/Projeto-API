@@ -1,58 +1,61 @@
 # Projeto API - Ben
 
-##Definição do Produto
+## Definição do Produto
 O Ben é um site/app para usuários de cartão de crédito fazerem uso dos respectivos programas de benefícios dos seus cartões. Muitos usuários de cartão hoje em dia tem mais de um cartão e não tem clareza sobre os benefícios que possuem direito. São diversas regras, diversas plataformas e vários benefícios excelentes. O objetivo do Ben é unificar as plataformas e trazer um lugar de fácil acesso à todas essas informações. 
 No Ben, o usuário pode marcar todos os cartões de quaisquer bancos que ele tem e já ter acesso à lista de benefícios que ele possui em relação a todos eles. 
 
-##Logo
+## Logo
 ![Logo](img/benlogo.jpeg)
 
-##Necessidade do Produto
+## Necessidade do Produto
 Os usuários desejam obter descontos, ter mais acesso a entretenimento e cultura, ter o comparativo entre os benefícios dos cartões e ter uma informação clara sobre como funcionam os programas de benefícios que ele possui direito. 
 
-##Quem são os usuários?
+## Quem são os usuários?
 Pessoas que utilizam cartão de crédito regularmente e acessam aplicativos em desktop e smartphones.
 
 ## Pesquisa com potenciais usuários 
 O intuito desta pesquisa foi entender como os usúarios de cartão de crédito obtém informações e utilizam os programas de benefícios do cartão
 
 ### Pergunta 1
-![Alt Text](assets/img/Q1.JPG)
+![Alt Text](assets/img/Q1.jpg)
 
 ### Pergunta 2
-![Alt Text](assets/img/Q2.JPG)
+![Alt Text](assets/img/Q2.jpg)
 
 ### Pergunta 3
-![Alt Text](assets/img/Q3.JPG)
+![Alt Text](assets/img/Q3.jpg)
 
 ### Pergunta 4
-![Alt Text](assets/img/Q4.JPG)
+![Alt Text](assets/img/Q4.jpg)
 
 ### Pergunta 5
-![Alt Text](assets/img/Q5.JPG)
+![Alt Text](assets/img/Q5.jpg)
 
 ### Pergunta 5
-![Alt Text](assets/img/Q5.JPG)
+![Alt Text](assets/img/Q5.jpg)
 
 ### Pergunta 6
-![Alt Text](assets/img/Q6.JPG)
+![Alt Text](assets/img/Q6.jpg)
 
 ### Pergunta 7
 ![Alt Text](assets/img/Q7.jpg)
 
 ### Pergunta 8
-![Alt Text](assets/img/Q8.JPG)
+![Alt Text](assets/img/Q8.jpg)
 
 ### Pergunta 9
-![Alt Text](assets/img/Q9.JPG)
+![Alt Text](assets/img/Q9.jpg)
 
 ## Personas
 Essas são as personas desenvolvidas para o projeto Ben: 
 
-![Personas](img/persona1.jpeg)
-![Personas](img/persona2.jpeg)
-![Personas](img/persona3.jpeg)
-![Personas](img/persona4.jpeg)
+![Personas](img/persona1.jpg)
+
+![Personas](img/persona2.jpg)
+
+![Personas](img/persona3.jpg)
+
+![Personas](img/persona4.jpg)
 
 ## roadmap oficial do projeto
 
