@@ -1,24 +1,19 @@
 $(document).ready(function() {
     $('#signup-btn').click(function(event) {
         event.preventDefault();
-        const email = $('#email-input').val();
-        const password = $('#password-input').val();
-        // const passwordConfirm = $('#password-input').val();
-        const name = $('#name-input').val();
-        // const age = $('#age-input').val();
-        // const gender = $('#gender-input').val();
+        const email = $('#email-signup').val();
+        const password = $('#password-signup').val();
+        const passwordConfirm = $('#confirm-signup').val();
+        const name = $('#name-signup').val();
         if (password === passwordConfirm) {
             firebase.auth().createUserWithEmailAndPassword(email, passwordConfirm)
                 .then(function(result) {
-                    writeUserData(result.user.uid, name, age, gender);
-                    window.location = './initial.html';
+                    window.location = './login.html';
                 })
                 .catch(function(error) {
-                    $('#help').html(error.message);
-                    console.log(error.code, error.message);
-                });
-        }
-    });
+                    $("#error-msg").html("<p>Senha e/ou usuário inválidos, tente novamente.</p>")
+                };)
+    };
   
     $('#signin-btn').click(function(event) {
         event.preventDefault();
@@ -26,7 +21,7 @@ $(document).ready(function() {
         const userPassword = $('#password-login').val();
         firebase.auth().signInWithEmailAndPassword(userEmail, userPassword)
             .then(function(result) {
-                window.location = ' ' + result.user.uid;
+                window.location = './home.html'
             })
             .catch(function(error) {
                 console.log(error.code, error.message);
@@ -49,3 +44,4 @@ $(document).ready(function() {
 //       }
 //     }
 //   }
+    

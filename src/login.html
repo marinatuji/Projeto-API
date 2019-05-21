@@ -13,8 +13,7 @@
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
   </script>
   <script src="config/firebase.js"></script>
   <script src="login.js"></script>
@@ -89,6 +88,7 @@
       <label for="exampleInputPassword1"></label>
       <input type="password" class="form-control login-form" id="password-login" placeholder="Senha">
     </div>
+    <div id="error-msg"></div>
     <button type="submit" class="btn btn-primary m-1 txt-b-white btn-blue" id="signin-btn">Entrar</button>
     <button type="button" class="btn btn-primary m-1 txt-b-white btn-yellow" data-toggle="modal" data-target="#sigup-modal" >Cadastrar</button>
     <p class="txt-blue p-2 d-flex justify-content-center">ou continue com: </p>
@@ -123,10 +123,10 @@
             </div>
         <div class="modal-body">
             <div class="form-group">
-                <input type="text" class="form-control login-form m-1" id="exampleInputName" placeholder="Nome Completo">
-                <input type="email" class="form-control login-form m-1" id="exampleInputEmail" placeholder="E-mail">
-                <input type="password" class="form-control login-form m-1" id="exampleInputPassword" placeholder="Senha">
-                <input type="password" class="form-control login-form m-1" id="exampleInputPassword" placeholder="Confirmar Senha">
+                <input type="text" class="form-control login-form m-1" id="name-signup" placeholder="Nome Completo">
+                <input type="email" class="form-control login-form m-1" id="email-signup" placeholder="E-mail">
+                <input type="password" class="form-control login-form m-1" id="password-signup" placeholder="Senha">
+                <input type="password" class="form-control login-form m-1" id="confirm-signup" placeholder="Confirmar Senha">
                 <select class="custom-select login-form m-1">
                     <option selected>Banco</option>
                     <option value="1">One</option>
@@ -148,7 +148,7 @@
               </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary text-white btn-yellow m-auto px-5">Cadastrar</button>
+          <button type="button" class="btn btn-primary text-white btn-yellow m-auto px-5" id="signup-btn">Cadastrar</button>
         </div>
       </div>
     </div>
