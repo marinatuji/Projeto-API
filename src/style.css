@@ -14,7 +14,7 @@ ul{
     height: 11rem;
 }
 
-.nav-blue{
+.bc-blue{
   background-color: #0071bc;
 }
 
@@ -33,11 +33,11 @@ ul{
 }
 .btn-blue{
   background-color: #0071bc;
-  border: transparent;
+  border: #0071bc;
 }
 .btn-yellow{
   background-color: #fcae18;
-  border: transparent;
+  border: #fcae18;
 }
 .login-form{
   border: 2px solid #0071bc;
@@ -55,9 +55,9 @@ ul{
 }
 .btn-white{
   background-color: white;
+  font-family: 'Ubuntu'; 
   border: 1px solid #fcae18;
   color: #fcae18;
-  font-family: 'Ubuntu';  
 }
 .btn-icon{
   background-color: transparent;
