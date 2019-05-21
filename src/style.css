@@ -6,14 +6,67 @@ ul{
   list-style: none;  
 }
 
-.ben-logo{
-    width: 10%;
-    display: flex;
-}
-
 .offer-card{
     width: 18rem;
 }
+
 .text-offer{
     height: 11rem;
+}
+
+.nav-blue{
+  background-color: #0071bc;
+}
+
+.text-white{
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.login-section{
+  background-color:#e2e2e2
+}
+.text-blue{
+  color:#0071bc;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.btn-blue{
+  background-color: #0071bc;
+  border: transparent;
+}
+.btn-yellow{
+  background-color: #fcae18;
+  border: transparent;
+}
+.login-form{
+  border: 2px solid #0071bc;
+}
+.face-icon{
+ color: #0071bc;
+ font-size: 40px;
+}
+.gmail-icon{
+ color:#d74939;
+ font-size: 40px;
+}
+.menu-icon{
+  color: #fcae18;
+}
+.btn-white{
+  background-color: white;
+  border: 1px solid #fcae18;
+  color: #fcae18;
+  font-family: 'Ubuntu';  
+}
+.btn-icon{
+  background-color: transparent;
+  border: none;
+}
+.search-form{
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid  #0071bc;
+  font-family: 'Ubuntu';  
 }

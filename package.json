@@ -1,0 +1,23 @@
+{
+  "name": "projeto-api",
+  "version": "1.0.0",
+  "description": "O Ben é um site/app para usuários de cartão de crédito fazerem uso dos respectivos programas de benefícios dos seus cartões. Muitos usuários de cartão hoje em dia tem mais de um cartão e não tem clareza sobre os benefícios que possuem direito. São diversas regras, diversas plataformas e vários benefícios excelentes. O objetivo do Ben é unificar as plataformas e trazer um lugar de fácil acesso à todas essas informações. \r No Ben, o usuário pode marcar todos os cartões de quaisquer bancos que ele tem e já ter acesso à lista de benefícios que ele possui em relação a todos eles.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loraineamaral/Projeto-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loraineamaral/Projeto-API/issues"
+  },
+  "homepage": "https://github.com/loraineamaral/Projeto-API#readme"
+}
