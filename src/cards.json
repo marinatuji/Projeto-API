@@ -1,0 +1,126 @@
+{
+    "bandeira": "Mastercard",
+    "instituição": "Bradesco",
+    "tipo": "Black",
+    "assets": {
+       "imagem":"/assets/img/credit-cards/M_Bra_Gold.png"
+    }
+},
+
+{
+    "bandeira": "Mastercard",
+    "instituição": "Bradesco",
+    "tipo": "Platinum",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/M_Bra_Platinum.png"
+    }
+},
+
+{
+    "bandeira": "Mastercard",
+    "instituição": "Bradesco",
+    "tipo": "Gold",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/M_Bra_Gold.png"
+    }
+},
+
+{
+    "bandeira": "Mastercard",
+    "instituição": "Bradesco",
+    "tipo": "Internacional",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/M_Bra_Inter.png"
+    }
+
+},
+
+{
+    "bandeira": "Mastercard",
+    "instituição": "Bradesco",
+    "tipo": "Nacional",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/M_Bra_Nacio.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Bradesco",
+    "tipo": "Nacional",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Bra_Nacio.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Bradesco",
+    "tipo": "Nacional_Mais",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Bra_Nacio+.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Bradesco",
+    "tipo": "Nacional_Universitário",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Bra_NacioUniv.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Bradesco_Seguros",
+    "tipo": "Internacional",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_BraSeg_Inter.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Bradesco",
+    "tipo": "Internacional",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Bra_Intern.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Neon",
+    "tipo": " ",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Neon.png"
+    }
+
+},
+
+{
+    "bandeira": "Visa",
+    "instituição": "Next",
+    "tipo": "Internacional ",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/V_Next_Inter.png"
+    }
+
+},
+
+{
+    "bandeira": "Mastercard",
+    "instituição": "Nubank",
+    "tipo": " ",
+    "assets": {
+        "imagem": "/assets/img/credit-cards/M_Nubank.png"
+    }
+
+},
