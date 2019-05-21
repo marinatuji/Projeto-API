@@ -11,6 +11,7 @@
             firebase.auth().createUserWithEmailAndPassword(email, passwordConfirm)
                 .then(function(result) {
                     writeUserData(result.user.uid, name, age, gender);
+                    window.location = './views/initial.html';
                 })
                 .catch(function(error) {
                     $('#help').html(error.message);
