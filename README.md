@@ -5,7 +5,7 @@ O Ben é um site/app para usuários de cartão de crédito fazerem uso dos respe
 No Ben, o usuário pode marcar todos os cartões de quaisquer bancos que ele tem e já ter acesso à lista de benefícios que ele possui em relação a todos eles. 
 
 ## Logo
-![Logo](img/benlogo.jpeg)
+![Logo](src/assets/img/logo-certinho.png)
 
 ## Necessidade do Produto
 Os usuários desejam obter descontos, ter mais acesso a entretenimento e cultura, ter o comparativo entre os benefícios dos cartões e ter uma informação clara sobre como funcionam os programas de benefícios que ele possui direito. 
@@ -17,45 +17,45 @@ Pessoas que utilizam cartão de crédito regularmente e acessam aplicativos em d
 O intuito desta pesquisa foi entender como os usúarios de cartão de crédito obtém informações e utilizam os programas de benefícios do cartão
 
 ### Pergunta 1
-![Alt Text](assets/img/Q1.jpg)
+![Alt Text](src/assets/img/Q1.jpg)
 
 ### Pergunta 2
-![Alt Text](assets/img/Q2.jpg)
+![Alt Text](src/assets/img/Q2.jpg)
 
 ### Pergunta 3
-![Alt Text](assets/img/Q3.jpg)
+![Alt Text](src/assets/img/Q3.jpg)
 
 ### Pergunta 4
-![Alt Text](assets/img/Q4.jpg)
+![Alt Text](src/assets/img/Q4.jpg)
 
 ### Pergunta 5
-![Alt Text](assets/img/Q5.jpg)
+![Alt Text](src/assets/img/Q5.jpg)
 
 ### Pergunta 5
-![Alt Text](assets/img/Q5.jpg)
+![Alt Text](src/assets/img/Q5.jpg)
 
 ### Pergunta 6
-![Alt Text](assets/img/Q6.jpg)
+![Alt Text](src/assets/img/Q6.jpg)
 
 ### Pergunta 7
-![Alt Text](assets/img/Q7.jpg)
+![Alt Text](src/assets/img/Q7.jpg)
 
 ### Pergunta 8
-![Alt Text](assets/img/Q8.jpg)
+![Alt Text](src/assets/img/Q8.jpg)
 
 ### Pergunta 9
-![Alt Text](assets/img/Q9.jpg)
+![Alt Text](src/assets/img/Q9.jpg)
 
 ## Personas
 Essas são as personas desenvolvidas para o projeto Ben: 
 
-![Personas](img/persona1.jpg)
+![Personas](src/assets/img/persona1.jpg)
 
-![Personas](img/persona2.jpg)
+![Personas](src/assets/img/persona2.jpg)
 
-![Personas](img/persona3.jpg)
+![Personas](src/assets/img/persona3.jpg)
 
-![Personas](img/persona4.jpg)
+![Personas](src/assets/img/persona4.jpg)
 
 ## roadmap oficial do projeto
 
