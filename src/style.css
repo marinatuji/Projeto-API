@@ -1,3 +1,4 @@
+
 body{
     padding: 0px;
 }
@@ -12,6 +13,7 @@ ul{
 
 .text-offer{
     height: 11rem;
+
 }
 
 .bc-blue{
@@ -35,6 +37,8 @@ ul{
   color:#0071bc;
   font-family: 'Ubuntu';
   font-weight: bold;
+  background-color: transparent;
+  border-color: transparent;
 }
 .login-section{
   background-color:#e2e2e2
