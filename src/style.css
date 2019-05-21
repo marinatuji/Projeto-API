@@ -16,32 +16,59 @@ ul{
 
 }
 
-.nav-blue{
+.bc-blue{
   background-color: #0071bc;
 }
 
-.text-white{
+.bc-yellow{
+  background-color: #fcae18;
+  border: #fcae18;
+}
+.txt-white{
+  color: white;
+  font-family: 'Ubuntu';
+}
+.txt-b-white{
   color: white;
   font-family: 'Ubuntu';
   font-weight: bold;
 }
-.login-section{
-  background-color:#e2e2e2
-}
-.text-blue{
+.txt-blue{
   color:#0071bc;
   font-family: 'Ubuntu';
   font-weight: bold;
   background-color: transparent;
   border-color: transparent;
 }
+.login-section{
+  background-color:#e2e2e2
+}
+.btn:focus{
+  box-shadow: none;
+}
 .btn-blue{
   background-color: #0071bc;
-  border: transparent;
+  border: #0071bc;
+}
+.btn-blue:hover{
+  color: white;
 }
 .btn-yellow{
   background-color: #fcae18;
-  border: transparent;
+  border: #fcae18;
+}
+.btn:hover{
+  color: white;
+}
+.btn-white{
+  background-color: white;
+  font-family: 'Ubuntu'; 
+  border: 1px solid #fcae18;
+  color: #fcae18;
+}
+.btn-icon{
+  background-color: transparent;
+  border: none;
 }
 .login-form{
   border: 2px solid #0071bc;
@@ -57,20 +84,21 @@ ul{
 .menu-icon{
   color: #fcae18;
 }
-.btn-white{
-  background-color: white;
-  border: 1px solid #fcae18;
-  color: #fcae18;
-  font-family: 'Ubuntu';  
-}
-.btn-icon{
-  background-color: transparent;
-  border: none;
-}
 .search-form{
   background-color: transparent;
   border-radius: 0;
   border: none;
   border-bottom: 2px solid  #0071bc;
   font-family: 'Ubuntu';  
+}
+.custom-select:focus{
+  box-shadow: none;
+}
+
+.offer-logo{
+height: 10rem;
+}
+
+.card-flag{
+  height: 2em;
 }
