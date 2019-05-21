@@ -68,3 +68,7 @@ Essas são as personas desenvolvidas para o projeto Ben:
 
 #### versão 3.0.0 (sem previsão)
 - funcionalidades: permite verificar todas os benefícios de cada programa de cartão de crédito filtrado por centro de interesse (troca de pontos, descontos em ingressos, descontos em compras).
+
+## Link para o protótipo de alta fidelidade
+
+https://marvelapp.com/8hfij0d/
