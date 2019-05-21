@@ -32,6 +32,8 @@ ul{
   color:#0071bc;
   font-family: 'Ubuntu';
   font-weight: bold;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-blue{
   background-color: #0071bc;
