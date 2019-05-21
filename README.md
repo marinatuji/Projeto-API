@@ -59,12 +59,14 @@ Essas são as personas desenvolvidas para o projeto Ben:
 
 ## roadmap oficial do projeto
 
-#### versão 1.0.0 (in progress)
+#### versão 1.0.0 (released)
 - funcionalidades: possibilita cadastro, login, selecionar os tipos de cartão que o usuário possui.
 - possibilita verificar descontos no cinema a partir de cartão que o usuário possui.
+- lançamento da versão mobile
 
 #### versão 2.0.0 (sem previsão)
 - funcionalidades: permite buscar também ingressos para teatro e pré-venda com desconto para shows.
+- lançamento da versão desktop
 
 #### versão 3.0.0 (sem previsão)
 - funcionalidades: permite verificar todas os benefícios de cada programa de cartão de crédito filtrado por centro de interesse (troca de pontos, descontos em ingressos, descontos em compras).
