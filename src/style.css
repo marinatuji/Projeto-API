@@ -1,3 +1,18 @@
+body{
+    padding: 0px;
+}
+
+ul{
+  list-style: none;  
+}
+
+.offer-card{
+    width: 18rem;
+}
+
+.text-offer{
+    height: 11rem;
+}
 
 .nav-blue{
   background-color: #0071bc;
