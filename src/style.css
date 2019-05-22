@@ -75,11 +75,11 @@ body{
 }
 .face-icon{
  color: #0071bc;
- font-size: 40px;
+ font-size: 2rem;
 }
 .gmail-icon{
  color:#d74939;
- font-size: 40px;
+ font-size: 2rem;
 }
 .menu-icon{
   color: #fcae18;
@@ -106,4 +106,7 @@ height: 10rem;
 .scroll-card {
   max-height: 15em;
   overflow-y: auto;
+}
+.txt-s-blue{
+  font-size: 0.8rem;
 }
