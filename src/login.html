@@ -18,9 +18,7 @@
 
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>
-  <script src="../config/firebase.js"></script>
-  <script src="../config/config.js"></script>
-  <script src="login.js"></script>
+  <script src="/src/config/firebase.js"></script>
 
   <title>Ben</title>
   <link rel="stylesheet" href="style.css">
@@ -56,7 +54,6 @@
 
   <main class='container-fluid m-0 p-0'>
 
-
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -89,20 +86,22 @@
       <form class="form-container d-flex flex-column">
         <div class="card-body d-flex flex-column">
           <div class="form-group">
-            <label for="exampleInputEmail1"></label>
-            <input type="email" class="form-control login-form" id="email-login" aria-describedby="emailHelp"
+
+            <input type="email" class="form-control login-form form-group" id="email-input" aria-describedby="emailHelp"
               placeholder="E-mail">
-            <label for="exampleInputPassword1"></label>
-            <input type="password" class="form-control login-form" id="password-login" placeholder="Senha">
+            <input type="password" class="form-control login-form" id="password-input" placeholder="Senha">
+          
           </div>
-          <button type="submit" class="btn btn-primary m-1 txt-b-white btn-blue" id="signin-btn">Entrar</button>
+          
+          <button type="submit" class="btn btn-primary m-1 txt-b-white btn-blue" id="sign-in-btn">Entrar</button>
           <button type="button" class="btn btn-primary m-1 txt-b-white btn-yellow" data-toggle="modal"
-            data-target="#sigup-modal">Cadastrar</button>
+            data-target="#signup-modal">Cadastrar</button>
           <p class="txt-blue p-2 d-flex justify-content-center">ou continue com: </p>
           <div class="d-flex flex-row justify-content-center">
             <button class="btn-icon" id="signin-facebook-btn"><i class="fab fa-facebook face-icon p-1"></i></button>
             <button class="btn-icon" id="signin-google-btn"><i class="fab fa-google-plus gmail-icon p-1"></i></button>
           </div>
+
         </div>
       </form>
     </div>
@@ -111,12 +110,7 @@
         <p class="txt-blue">Como você quer economizar hoje?</p>
         <form>
           <div class="form-group d-flex flex-column justify-content-center ">
-<<<<<<< HEAD
-            <input type="text" class="form-control search-form" id="exampleInputPassword1" placeholder="ex.: cinema são paulo">
-=======
-            <input type="password" class="form-control search-form" id="exampleInputPassword1"
-              placeholder="ex.: cinema são paulo">
->>>>>>> 06a3f6df9689a58b576cf498b87065b98b4b7319
+            <input type="text" class="form-control search-form" id="form-cine" placeholder="ex.: cinema são paulo">
             <button type="submit" class="btn btn-blue btn-white mt-2">Pesquisar</button>
           </div>
         </form>
@@ -125,7 +119,7 @@
 
     <!-- Modal -->
 
-    <div class="modal fade" id="sigup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -138,9 +132,9 @@
           <div class="modal-body">
             <div class="form-group">
               <input type="text" class="form-control login-form m-1" id="exampleInputName" placeholder="Nome Completo">
-              <input type="email" class="form-control login-form m-1" id="exampleInputEmail" placeholder="E-mail">
-              <input type="password" class="form-control login-form m-1" id="exampleInputPassword" placeholder="Senha">
-              <input type="password" class="form-control login-form m-1" id="exampleInputPassword"
+              <input type="email" class="form-control login-form m-1" id="email-input-up" placeholder="E-mail">
+              <input type="password" class="form-control login-form m-1" id="password-input-up" placeholder="Senha">
+              <input type="password" class="form-control login-form m-1" id="password-input-conf"
                 placeholder="Confirmar Senha">
               <select class="custom-select login-form m-1">
                 <option selected>Banco</option>
@@ -181,7 +175,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary text-white btn-yellow m-auto px-5">Cadastrar</button>
+            <button id="sign-up-btn" type="button" class="btn btn-primary text-white btn-yellow m-auto px-5">Cadastrar</button>
           </div>
         </div>
       </div>
@@ -195,7 +189,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+
+  <script src="/src/fb-auth.js"></script>
+  <script src="/src/auth.js"></script>
 
 </body>
 
