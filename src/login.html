@@ -15,18 +15,16 @@
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>
   <script src="/src/config/firebase.js"></script>
-
   <title>Ben</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="container-fluid m-0 p-0">
+  <header class="container-fluid p-0 m-0">
     <nav class="navbar navbar-expand-lg bc-blue">
       <img src="assets/img/logo texto branco.png" alt="logo-site" class="img-logo" style="height: 30px">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -52,7 +50,7 @@
     </nav>
   </header>
 
-  <main class='container-fluid m-0 p-0'>
+  <main>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -95,6 +93,7 @@
           
           <button type="submit" class="btn btn-primary m-1 txt-b-white btn-blue" id="sign-in-btn">Entrar</button>
           <button type="button" class="btn btn-primary m-1 txt-b-white btn-yellow" data-toggle="modal"
+
             data-target="#signup-modal">Cadastrar</button>
           <p class="txt-blue p-2 d-flex justify-content-center">ou continue com: </p>
           <div class="d-flex flex-row justify-content-center">
@@ -105,12 +104,16 @@
         </div>
       </form>
     </div>
+
     <div class="card login-section m-2">
       <div class="card-body d-flex flex-column justify-content-center">
         <p class="txt-blue">Como você quer economizar hoje?</p>
         <form>
           <div class="form-group d-flex flex-column justify-content-center ">
-            <input type="text" class="form-control search-form" id="form-cine" placeholder="ex.: cinema são paulo">
+
+            <input type="text" class="form-control search-form" id="exampleInputPassword1"
+              placeholder="ex.: cinema são paulo">
+
             <button type="submit" class="btn btn-blue btn-white mt-2">Pesquisar</button>
           </div>
         </form>
@@ -118,7 +121,6 @@
     </div>
 
     <!-- Modal -->
-
     <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -129,7 +131,9 @@
                 </button>
 
             </div>
+
           <div class="modal-body">
+
             <div class="form-group">
               <input type="text" class="form-control login-form m-1" id="exampleInputName" placeholder="Nome Completo">
               <input type="email" class="form-control login-form m-1" id="email-input-up" placeholder="E-mail">
@@ -138,44 +142,58 @@
                 placeholder="Confirmar Senha">
               <select class="custom-select login-form m-1">
                 <option selected>Banco</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="1">Banco do Brasil</option>
+                <option value="2">Bradesco</option>
+                <option value="3">Caixa Econômica Federal</option>
+                <option value="4">Itaú</option>
+                <option value="5">Nubank</option>
+                <option value="6">Next</option>
+                <option value="7">Santander</option>
               </select>
-              <select class="custom-select login-form m-1">
-                <option selected>Bandeira</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <select class="custom-select login-form m-1">
-                <option selected>Tipo de Cartão</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-
-              <p class='txt-blue mt-2'>Escolha seu cartão: </p>
-              <div class="d-flex flex-row mx-2">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_black.png" alt="" data-toggle="tooltip" data-placement="top">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_gold.png" alt="" data-toggle="tooltip" data-placement="top">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_black.png" alt="" data-toggle="tooltip" data-placement="top">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_gold.png" alt="" data-toggle="tooltip" data-placement="top">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_black.png" alt="" data-toggle="tooltip" data-placement="top">
-                  <input class="drink" type="checkbox" name="checkbox" value="card">
-                  <img src="./assets/img/credit-cards/bradesco_mastercard_gold.png" alt="" data-toggle="tooltip" data-placement="top">
-                  
-               
-              </div>
             </div>
+
+            <section class="container choose-card d-inline-flex p-0 m-0">
+              <div class="card scroll-card w-50">
+                <p class='txt-blue txt-s-blue mt-2 ml-2'>Escolha seu cartão: </p>
+                <div class="card-body">
+                  <div class="d-flex flex-column mx-2">
+                    <img src="./assets/img/credit-cards/bradesco_mastercard_black.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_mastercard_gold.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_mastercard_internacional.png" alt=""
+                      data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_mastercard_nacional.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_mastercard_platinum.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class=" mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_visa_nacional.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/bradesco_visa_nacional_mais.png" alt="" data-toggle="tooltip"
+                      data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/cartao_bradesco_seguros_visa_internacional.png" alt=""
+                      data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <img src="./assets/img/credit-cards/cartao_bradesco_visa_nacional_usar_universitario.png" alt=""
+                      data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
+                    <im g src="./assets/img/credit-cards/cartao_de_credito_bradesco_visa_internacional.png" alt=""
+                      data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
+                  </div>
+                </div>
+              </div>
+              <div class="card scroll-card w-50">
+                <p class='txt-blue txt-s-blue mt-2 ml-2'>Selecionados: </p>
+                <div class="card-body">
+                  <div class="d-flex flex-column">
+                  </div>
+                </div>
+              </div>
+
+            </section>
           </div>
           <div class="modal-footer">
+
             <button id="sign-up-btn" type="button" class="btn btn-primary text-white btn-yellow m-auto px-5">Cadastrar</button>
+
           </div>
         </div>
       </div>
