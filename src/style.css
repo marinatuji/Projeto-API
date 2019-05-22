@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 
-ul{
+.offer-list{
   list-style: none;  
 }
 
@@ -101,4 +101,9 @@ height: 10rem;
 
 .card-flag{
   height: 2em;
+}
+
+.scroll-card {
+  max-height: 15em;
+  overflow-y: auto;
 }
