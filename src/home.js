@@ -1,8 +1,6 @@
 const endpoint = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados';
-// const endpoint = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados/35/municipios';
 const checkLocation = document.querySelector("#search-check-location");
 const selectState = document.querySelector('#search-select-state');
-const checkOnline = document.querySelector('#search-check-online');
 
 checkLocation.addEventListener('change', function (eve) {
   if(this.checked){
