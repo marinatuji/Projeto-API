@@ -29,3 +29,7 @@ function eventInit(){
     })
     console.log(parag);
 }
+
+
+
+//
