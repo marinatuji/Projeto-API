@@ -152,37 +152,40 @@
               </select>
             </div>
 
+            <p>Drag the W3Schools image into the rectangle:</p>
+
+
             <section class="container choose-card d-inline-flex p-0 m-0">
               <div class="card scroll-card w-50">
                 <p class='txt-blue txt-s-blue mt-2 ml-2'>Escolha seu cartão: </p>
                 <div class="card-body">
                   <div class="d-flex flex-column mx-2">
-                    <img src="./assets/img/credit-cards/bradesco_mastercard_black.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_mastercard_black.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_mastercard_gold.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_mastercard_gold.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_mastercard_internacional.png" alt=""
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_mastercard_internacional.png" draggable="true" ondragstart="drag(event)" alt=""
                       data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_mastercard_nacional.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_mastercard_nacional.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_mastercard_platinum.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_mastercard_platinum.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class=" mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_visa_nacional.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_visa_nacional.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/bradesco_visa_nacional_mais.png" alt="" data-toggle="tooltip"
+                    <img id="cardSelect" src="./assets/img/credit-cards/bradesco_visa_nacional_mais.png" draggable="true" ondragstart="drag(event)" alt="" data-toggle="tooltip"
                       data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/cartao_bradesco_seguros_visa_internacional.png" alt=""
+                    <img id="cardSelect" src="./assets/img/credit-cards/cartao_bradesco_seguros_visa_internacional.png" draggable="true" ondragstart="drag(event)" alt=""
                       data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <img src="./assets/img/credit-cards/cartao_bradesco_visa_nacional_usar_universitario.png" alt=""
+                    <img id="cardSelect" src="./assets/img/credit-cards/cartao_bradesco_visa_nacional_usar_universitario.png" draggable="true" ondragstart="drag(event)" alt=""
                       data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
-                    <im g src="./assets/img/credit-cards/cartao_de_credito_bradesco_visa_internacional.png" alt=""
+                    <img id="cardSelect" src="./assets/img/credit-cards/cartao_de_credito_bradesco_visa_internacional.png" draggable="true" ondragstart="drag(event)" alt=""
                       data-toggle="tooltip" data-placement="top" class="mb-1" style="height: 4.5rem">
                   </div>
                 </div>
               </div>
-              <div class="card scroll-card w-50">
+              <div id="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" class="card scroll-card w-50">
                 <p class='txt-blue txt-s-blue mt-2 ml-2'>Selecionados: </p>
-                <div class="card-body">
+                <div class="card-body" id="drop-area">
                   <div class="d-flex flex-column">
                   </div>
                 </div>
@@ -208,8 +211,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-  <script src="./fb-auth.js"></script>
-  <script src="./auth.js"></script>
+
+  <script src="/src/fb-auth.js"></script>
+  <script src="/src/auth.js"></script>
+  <script src="dragdrop.js"></script>
 
 </body>
 
